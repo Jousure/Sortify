@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/peach_cream"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/soft_teal"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSorting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sorting_algorithms"
+        android:background="@android:drawable/btn_dropdown"
+        android:color="@color/peach_cream"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tvComplexity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Complexity and Space Complexity: -"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:shadowColor="@color/deep_teal"
+        android:shadowRadius="6"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:background="@color/soft_teal"
+        android:padding="8dp"
+        android:elevation="4dp"/>
+
+    <RadioGroup
+        android:id="@+id/speedGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:background="#E6B2BA"
+        android:elevation="6dp"
+        android:layout_gravity="center"
+        android:radius="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#B03052" />
+
+        <RadioButton
+            android:id="@+id/rbSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slow"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rbMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textStyle="bold"
+            android:checked="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rbFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Random Bars"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:backgroundTint="@color/deep_teal"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Sorting"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:backgroundTint="@color/deep_teal"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/soft_pink"
+            android:padding="10dp"
+            android:text="Pause"
+            android:textSize="18dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnResume"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/soft_pink"
+            android:padding="10dp"
+            android:text="Resume"
+            android:textSize="18dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+

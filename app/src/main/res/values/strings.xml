@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sorting Visualizer</string>
+
+    <string-array name="sorting_algorithms">
+        <item>Bubble Sort</item>
+        <item>Selection Sort</item>
+        <item>Insertion Sort</item>
+        <item>Merge Sort</item>
+        <item>Quick Sort</item>
+        <item>Heap Sort</item>
+    </string-array>
+</resources>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="#364F6B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- App Title Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="12dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#3FC1C9"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sortify - Sorting Visualizer Guide"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#F5F5F5"
+                android:gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:padding="5dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Introduction -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app helps visualize sorting algorithms step-by-step using animations and color codes."
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-light"
+            android:background="#FC5185"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Section Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Use:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Steps in a Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="12dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#3FC1C9"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Open the App – Launch the Sorting Visualizer."
+                    android:textSize="16sp"
+                    android:textColor="#F5F5F5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Generate an Array – Press 'Generate Array' to create bars."
+                    android:textSize="16sp"
+                    android:textColor="#F5F5F5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Choose an Algorithm – Select Bubble Sort, Quick Sort, etc."
+                    android:textSize="16sp"
+                    android:textColor="#F5F5F5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Adjust the Speed – Use the slider to control animation speed."
+                    android:textSize="16sp"
+                    android:textColor="#F5F5F5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Start Sorting – Click 'Start Sorting' to visualize sorting."
+                    android:textSize="16sp"
+                    android:textColor="#F5F5F5"
+                    android:paddingBottom="8dp" />
+
+                <!-- Step 6 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Watch the Colors – Observe how bars change colors based on comparisons:"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp" />
+
+                <!-- Color Code Legend -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   - Red: Current elements being compared"
+                    android:textSize="16sp"
+                    android:textColor="#DC143C"
+                    android:paddingBottom="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   - Green: Sorted elements"
+                    android:textSize="16sp"
+                    android:textColor="#008000"
+                    android:paddingBottom="3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   - Yellow: Pivot element (Quick Sort)"
+                    android:textSize="16sp"
+                    android:textColor="#FFD700"
+                    android:paddingBottom="5dp" />
+
+                <!-- Step 7 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Pause/Resume Anytime – Use the 'Pause' button to stop the animation and 'Resume' to continue."
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp" />
+
+                <!-- Step 8 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Check Sorting Steps – See how elements move step by step in the animation."
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp" />
+
+                <!-- Step 9 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. Understand Complexity – Each algorithm has different time and space complexities."
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp" />
+
+                <!-- Step 10 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Try Different Algorithms – Experiment with various sorting methods to compare their performance."
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="10dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Color Code Legend -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="12dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="#FC5185"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color Codes:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:paddingBottom="10dp"
+                    android:gravity="center"/>
+
+                <!-- Color List -->
+                <!-- Current element being compared -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔴 - Current element being compared (Crimson)"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <!-- Sorted elements -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🟢 - Sorted elements (Green)"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <!-- Default bar color -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🟣 - Default bar color (Purple)"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <!-- Pivot element -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🟡 - Pivot element (Gold, for Quick Sort)"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <!-- Swapping elements -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔵 - Elements being swapped (Blue)"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Sorting Algorithm Descriptions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorting Algorithms Explained:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Selection Sort: Selects the smallest element and places it at the beginning."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Insertion Sort: Builds the sorted array one item at a time."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Merge Sort: Uses a divide-and-conquer approach to sort elements."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Quick Sort: Picks a pivot element and partitions the array around it."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Heap Sort: Uses a binary heap structure to sort elements."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="10dp" />
+
+        <!-- Closing Note -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Now you're ready to explore sorting algorithms like a pro!"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#364F6B"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</ScrollView>
+

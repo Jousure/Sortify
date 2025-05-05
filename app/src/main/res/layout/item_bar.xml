@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <!-- Number Above the Bar -->
+    <TextView
+        android:id="@+id/tvBarValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Bar View -->
+    <View
+        android:id="@+id/barView"
+        android:layout_width="20dp"
+        android:layout_height="400dp"
+        android:background="@android:color/holo_purple"/>
+</LinearLayout>

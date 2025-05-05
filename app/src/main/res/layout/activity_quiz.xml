@@ -16,7 +16,7 @@
         android:textColor="@color/white"
         android:paddingBottom="40dp"
         android:gravity="center"
-        android:elevation="6dp"/>
+        android:elevation="6dp" />
 
     <Button
         android:id="@+id/btn_basic"
@@ -29,7 +29,7 @@
         android:backgroundTint="@color/deep_teal"
         android:paddingVertical="14dp"
         android:layout_marginBottom="20dp"
-        android:elevation="4dp"/>
+        android:elevation="4dp" />
 
     <Button
         android:id="@+id/btn_intermediate"
@@ -42,7 +42,7 @@
         android:backgroundTint="@color/soft_teal"
         android:paddingVertical="14dp"
         android:layout_marginBottom="20dp"
-        android:elevation="4dp"/>
+        android:elevation="4dp" />
 
     <Button
         android:id="@+id/btn_advanced"
@@ -54,6 +54,6 @@
         android:textColor="@android:color/white"
         android:backgroundTint="@color/soft_pink"
         android:paddingVertical="14dp"
-        android:elevation="4dp"/>
+        android:elevation="4dp" />
 
 </LinearLayout>

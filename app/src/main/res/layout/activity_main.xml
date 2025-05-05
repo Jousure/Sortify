@@ -21,8 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/logo"
-            android:scaleType="fitCenter"/>
-        </androidx.cardview.widget.CardView>
+            android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
 
 
     <androidx.cardview.widget.CardView
@@ -35,36 +35,36 @@
         app:cardBackgroundColor="@color/soft_pink"
         android:padding="20dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/homeTitle"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="12dp"
-            android:shadowColor="@color/black"
-            android:shadowRadius="8"
-            android:text="Sorting Algorithm Visualizer"
-            android:textAlignment="center"
-            android:textColor="@color/deep_teal"
-            android:textSize="34sp"
-            android:textStyle="bold" />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/homeDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="10dp"
-            android:text="Learn about different sorting algorithms."
-            android:textAlignment="center"
-            android:textColor="@color/deep_teal"
-            android:textSize="20sp" />
-    </LinearLayout>
-</androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/homeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:shadowColor="@color/black"
+                android:shadowRadius="8"
+                android:text="Sorting Algorithm Visualizer"
+                android:textAlignment="center"
+                android:textColor="@color/deep_teal"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/homeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Learn about different sorting algorithms."
+                android:textAlignment="center"
+                android:textColor="@color/deep_teal"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/btnGuide"
@@ -75,7 +75,7 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:padding="15dp"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btnVizualization"
@@ -86,18 +86,18 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:padding="15dp"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
     <Button
-    android:id="@+id/btnSorting"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="View Sorting Algorithms"
-    android:backgroundTint="@color/deep_teal"
-    android:textStyle="bold"
-    android:textSize="20sp"
-    android:padding="15dp"
-    android:textColor="@android:color/white"/>
+        android:id="@+id/btnSorting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Sorting Algorithms"
+        android:backgroundTint="@color/deep_teal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btnQuiz"
@@ -108,7 +108,7 @@
         android:textStyle="bold"
         android:textSize="20sp"
         android:padding="15dp"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
 

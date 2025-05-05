@@ -23,9 +23,9 @@
         </activity>
         <activity android:name=".DetailActivity" />
         <activity android:name=".SortingDisplay" />
-        <activity android:name=".SortingVizualization"/>
-        <activity android:name=".Guide"/>
-        <activity android:name=".Quiz"/>
+        <activity android:name=".SortingVizualization" />
+        <activity android:name=".Guide" />
+        <activity android:name=".Quiz" />
         <activity android:name=".BasicQuizActivity" />
         <activity android:name=".IntermediateQuizActivity" />
         <activity android:name=".AdvancedQuizActivity" />

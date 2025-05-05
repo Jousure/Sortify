@@ -51,7 +51,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:layout_marginBottom="15dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp" />
 
         <!-- Section Header -->
         <TextView
@@ -218,7 +218,7 @@
                     android:textStyle="bold"
                     android:textColor="@color/white"
                     android:paddingBottom="10dp"
-                    android:gravity="center"/>
+                    android:gravity="center" />
 
                 <!-- Color List -->
                 <!-- Current element being compared -->
@@ -376,7 +376,7 @@
             android:paddingBottom="10dp"
             android:background="#F5F5F5"
             android:padding="12dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp" />
     </LinearLayout>
 
 </ScrollView>

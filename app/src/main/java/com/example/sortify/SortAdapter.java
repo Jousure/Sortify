@@ -76,13 +76,20 @@ public class SortAdapter extends RecyclerView.Adapter<SortAdapter.ViewHolder> {
     // Method to return correct image based on sorting name
     private int getSortImage(String name) {
         switch (name) {
-            case "Bubble Sort": return R.drawable.bubble_sort;
-            case "Selection Sort": return R.drawable.selection_sort;
-            case "Insertion Sort": return R.drawable.insertion_sort;
-            case "Merge Sort": return R.drawable.merge_sort;
-            case "Quick Sort": return R.drawable.quick_sort;
-            case "Heap Sort": return R.drawable.heap_sort;
-            default: return R.drawable.default_image;
+            case "Bubble Sort":
+                return R.drawable.bubble_sort;
+            case "Selection Sort":
+                return R.drawable.selection_sort;
+            case "Insertion Sort":
+                return R.drawable.insertion_sort;
+            case "Merge Sort":
+                return R.drawable.merge_sort;
+            case "Quick Sort":
+                return R.drawable.quick_sort;
+            case "Heap Sort":
+                return R.drawable.heap_sort;
+            default:
+                return R.drawable.default_image;
         }
     }
 }

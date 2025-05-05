@@ -766,7 +766,6 @@ public class SortingVizualization extends AppCompatActivity {
     }
 
 
-
 //    private void selectionSort() {
 //        int n = barList.size();
 //        for (int i = 0; i < n - 1; i++) {

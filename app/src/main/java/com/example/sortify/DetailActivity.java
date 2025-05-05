@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class DetailActivity extends AppCompatActivity {
@@ -49,14 +50,6 @@ public class DetailActivity extends AppCompatActivity {
         textCode.setTextColor(Color.parseColor("#DE3163"));  //pink
     }
 }
-
-
-
-
-
-
-
-
 
 
 //package com.example.display2;

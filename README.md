@@ -1,52 +1,69 @@
-# 📱 Sortify - Sorting Algorithm Visualizer for Android
+# 📱 Sortify – Android Sorting Algorithm Visualizer
 
-**Sortify** is an Android app that helps users learn how sorting algorithms work through real-time animations. It shows how data gets sorted step by step using colorful bars, making each operation easy to understand.
+**Sortify** is a sleek, educational Android app that visually demonstrates how popular sorting algorithms work. Using animated, colorful bars, it breaks down each step of the sorting process in real time.
 
-Ideal for 🎓 students, 👩‍🏫 educators, and 👨‍💻 developers, Sortify transforms abstract sorting logic into visual, interactive learning—perfect for both study and technical interview prep!
-
----
-
-## 🌟 Features
-
-- 🎞️ **Animated visualizations** for popular sorting algorithms  
-- 🎨 **Color-coded bars** for comparisons, swaps, pivots, and sorted elements  
-- ⏯️ **Pause, resume**, and **control animation speed**  
-- 📖 **Descriptions** and ⏱️ **time complexities** for each algorithm  
-- 🧠 **Quiz section** with basic to advanced levels to test understanding  
-- 📱 **Responsive and clean UI** for smooth experience across devices
+Perfect for:
+- 🎓 **Students** learning data structures  
+- 👨‍🏫 **Teachers** explaining algorithms  
+- 🧠 **Developers** preparing for coding interviews  
 
 ---
 
-## 🛠 Technologies Used
+## ✨ Features
 
-- ☕ **Java** – Core logic and thread control  
-- 🧩 **XML** – UI layout and structure  
-- 🧪 **Android Studio** – Development environment  
-
----
-
-## ⚙️ How It Works
-
-Sortify uses animated vertical bars to represent data elements being sorted.
-
-### 🎨 Color Guide:
-- 🔴 **Crimson** – Currently being compared or swapped  
-- 🟡 **Yellow** – Pivot or special indicator  
-- 🟢 **Green** – Sorted elements  
-- 🔵 **Blue** – Pivot’s sorting state  
-- 🟣 **Violet** – Default (unsorted) state
-
-### 🔍 User Interactions:
-- Select an algorithm from the dropdown  
-- Watch real-time sorting animation  
-- Control speed, pause or resume anytime  
-- View algorithm info and complexities for learning
+✅ Real-time animated bar visualizations  
+🎨 Color indicators for operations (compare, swap, sorted, pivot)  
+⏯️ Control sorting speed, pause/resume at any time  
+📘 Time complexities and algorithm descriptions  
+🧩 Built-in quizzes (basic to advanced levels)  
+📱 Responsive and clean UI
 
 ---
 
-## 📥 Installation
+## 🧠 How It Works
 
-To get Sortify up and running on your Android device:
+Sortify represents data as vertical bars of varying heights. As sorting progresses, colors change to reflect different operations:
+
+| Color     | Meaning                            |
+|-----------|------------------------------------|
+| 🔴 Crimson | Comparing or swapping bars         |
+| 🟡 Yellow  | Pivot or special indicator         |
+| 🟢 Green   | Bar in final sorted position       |
+| 🔵 Blue    | Sorting state for pivot elements   |
+| 🟣 Violet  | Default (unsorted) bars            |
+
+**User Flow:**
+1. Choose a sorting algorithm from the dropdown
+2. Visualize sorting in action
+3. Pause, resume, or adjust speed for deeper understanding
+4. View explanations and take quizzes for practice
+
+---
+
+## 🧰 Technologies Used
+
+- ☕ **Java** – Handles algorithm logic and threading  
+- 🧩 **XML** – Designs UI layouts  
+- 🧪 **Android Studio** – Full development environment  
+- 🔄 **RecyclerView** – Renders animated data bars  
+- 🧵 **Custom threading** – Enables smooth control of animation
+
+---
+
+## 🔃 Sorting Algorithms Included
+
+- 🔁 Bubble Sort  
+- 🃏 Insertion Sort  
+- 🏅 Selection Sort  
+- 🧩 Merge Sort  
+- ⚡ Quick Sort  
+- ⏳ Heap Sort  
+
+---
+
+## 🚀 Installation
+
+To run **Sortify** on your local Android device:
 
 1. **Clone the repository**  
    ```bash

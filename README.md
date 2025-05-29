@@ -82,3 +82,53 @@ To run **Sortify** on your local Android device:
    - On a real Android device or
 
    - Android Emulator
+  
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <th>Home Page</th>
+    <th>Guide Page</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/aaf37242-2e00-40ca-b76d-8714d7089b54" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2c733b6b-1313-4aa9-8aa3-342a456ea6dc" width="250"/></td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+<h3>Visualization Pages</h3>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/38bfc1ae-8f6f-4762-905e-44725c21168c" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/4fb41ee8-c6e0-43a8-b442-2aaa09172add" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/2d5d43f6-3238-4b08-99f5-cf0483551824" width="250"/></td>
+  </tr>
+</table>
+   
+<h3>Description Pages</h3>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c157742c-62b9-41fc-9caf-407a4afd5abf" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/e9c079e9-7937-4107-8fa7-cbc400134097" width="250"/></td>
+  </tr>
+</table>
+
+<h3>Quiz Page</h3>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d3022fa5-08b9-4d5b-8d59-00fb20d6f0c7" width="250"/></td>
+     <td><img src="https://github.com/user-attachments/assets/bb97ce91-0d67-4278-83a5-9131176ec356" width="250"/></td>
+  </tr>
+  </tr>
+</table>
+</table>
+
+## 🤝 Let's Make Learning Fun!
+
+Sortify was built to help learners understand sorting algorithms in a visual and interactive way.  
+Enjoy the process and **have fun sorting!**!!.
+

@@ -19,11 +19,37 @@ This app is helpful for students, teachers, and developers who want a better way
 - XML - Used to design the app layout and screens
 - Android Studio - Development environment
 
-## Algorithms Included ##
+## How It Works
 
-- Bubble Sort  
-- Insertion Sort  
-- Selection Sort  
-- Merge Sort  
-- Quick Sort  
-- Heap Sort  
+Sortify visualizes sorting algorithms using animated vertical bars of varying heights, each representing a data element.
+
+- During sorting, **colors indicate operations**:
+  - **Crimson** – Bars currently being compared or swapped
+  - **Yellow** – Pivot or special indicator
+  - **Green** – Bars in their correct sorted position
+  - **Blue** – Pivot's sorting state
+  - **Violet** – Default (unsorted) bars
+
+- Users can:
+  - Choose an algorithm from a dropdown menu
+  - Watch the algorithm sort the bars in real time
+  - Pause, resume, or adjust the animation speed
+  - View algorithm descriptions and time complexities
+
+This interactive approach makes it easier to understand how each algorithm works step by step.
+
+## Installation
+
+To run Sortify on your device:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Jousure/Sortify.git
+2. **Open the project in Android Studio.**
+
+3. **Build the project using Gradle or by selecting Build > Make Project from the menu.**
+
+4. **Run the app on an Android emulator or a physical Android device.**
+
+
+

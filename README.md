@@ -1,6 +1,6 @@
-# 📱 Sortify – Android Sorting Algorithm Visualizer
+# 📱 Sortify – Sorting Algorithm Visualizer for Android
 
-**Sortify** is a sleek, educational Android app that visually demonstrates how popular sorting algorithms work. Using animated, colorful bars, it breaks down each step of the sorting process in real time.
+**Sortify** is an Android app that helps users learn how sorting algorithms work through real-time animations. It shows how data gets sorted step by step, using colorful bars to make each operation easy to understand.
 
 Perfect for:
 - 🎓 **Students** learning data structures  

@@ -68,3 +68,17 @@ To run **Sortify** on your local Android device:
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/Jousure/Sortify.git
+
+2. **Open the project in Android Studio**
+
+3. **Build the project**
+
+   - Via Gradle, or
+
+   - Select Build > Make Project from the top menu
+
+3. **Run the app**
+
+   - On a real Android device or
+
+   - Android Emulator

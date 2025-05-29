@@ -127,6 +127,11 @@ To run **Sortify** on your local Android device:
 </table>
 </table>
 
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+For more details, see the [LICENSE file](https://github.com/Jousure/Sortify?tab=MIT-1-ov-file).
+
 ## 🤝 Let's Make Learning Fun!
 
 Sortify was built to help learners understand sorting algorithms in a visual and interactive way.  

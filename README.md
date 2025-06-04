@@ -30,7 +30,7 @@ Sortify represents data as vertical bars of varying heights. As sorting progress
 | 🟡 Yellow  | Pivot or special indicator         |
 | 🟢 Green   | Bar in final sorted position       |
 | 🔵 Blue    | Sorting state for pivot elements   |
-| 🟣 Violet  | Default (unsorted) bars            |
+| 🟣 Purple  | Default (unsorted) bars            |
 
 **User Flow:**
 1. Choose a sorting algorithm from the dropdown
